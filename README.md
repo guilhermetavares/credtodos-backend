@@ -30,10 +30,12 @@ CPF
 Como não é um cadastro qualquer, esses dados precisam passar por uma validação específica:
 
 - EMAIL: Se é uma email válido e não existe na base
+  - 1
+
 - TELEFONE: Se é um telefone válido
 - CEP: Verificar se o cep existe, caso existir, salvar os dados complementares
 - NUMERO e COMPLEMENTO: não são obrigatórios
-- CPF: verificar se o valor do cpf é válido
+- CPF: verificar se o valor é válido
 
 A api deve conter basicamente as urls (sugestão):
 ```shell
@@ -46,3 +48,5 @@ O acesso à api deve ser aberto ao mundo, porém deve possuir autenticação e a
 Você está livre para definir a melhor arquitetura e tecnologias para solucionar este desafio, mas não se esqueça de contar sua motivação no arquivo README que deve acompanhar sua solução, junto com os detalhes de como executar seu programa. Documentação e testes serão avaliados também =).
 
 Nós solicitamos que você trabalhe no desenvolvimento desse sistema sozinho e não divulgue a solução desse problema pela internet.
+
+![Luck](https://media.tenor.com/images/e026ce9d75219c8d82277ddf0558ee2b/tenor.gif)
