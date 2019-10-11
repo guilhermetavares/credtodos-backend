@@ -59,4 +59,7 @@ Você está livre para definir a melhor arquitetura e tecnologias para soluciona
 
 Nós solicitamos que você trabalhe no desenvolvimento desse sistema sozinho e não divulgue a solução desse problema pela internet.
 
+Boa sorte,
+PagTodos e CredTodos!
+
 ![Luck](https://media.tenor.com/images/e026ce9d75219c8d82277ddf0558ee2b/tenor.gif)
