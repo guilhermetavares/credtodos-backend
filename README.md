@@ -1,4 +1,7 @@
+![portaldetodos](https://cartaodetodos.com.br/assets/images/logo.png)
+
 Desafio técnico Python
+======================
 
 Alguns requisitos
 -----------------
@@ -38,3 +41,8 @@ A api deve conter basicamente as urls (sugestão):
   GET  /api/v1/customers/<key> - detalhe do clientes
   POST /api/v1/customers - cadastrar um novo cliente
 ```
+O acesso à api deve ser aberto ao mundo, porém deve possuir autenticação e autorização.
+
+Você está livre para definir a melhor arquitetura e tecnologias para solucionar este desafio, mas não se esqueça de contar sua motivação no arquivo README que deve acompanhar sua solução, junto com os detalhes de como executar seu programa. Documentação e testes serão avaliados também =).
+
+Nós solicitamos que você trabalhe no desenvolvimento desse sistema sozinho e não divulgue a solução desse problema pela internet.
