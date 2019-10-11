@@ -50,7 +50,7 @@ Como não é um cadastro qualquer, esses dados precisam passar por uma validaç�
 A api deve conter basicamente as urls (sugestão):
 ```shell
   GET  /api/v1/customers - listar os clientes
-  GET  /api/v1/customers/<key> - detalhe do clientes
+  GET  /api/v1/customers/*<key>* - detalhe do clientes
   POST /api/v1/customers - cadastrar um novo cliente
 ```
 O acesso à api deve ser aberto ao mundo, porém deve possuir autenticação e autorização.
