@@ -14,9 +14,10 @@ Problema
 
 A CREDTODOS LTDA está lançando um sistema inovador de cadastros e precisa garantir toda a qualidade e padronização dos dados.
 E esse sistema será uma API simples de cadastro de clientes, e o sistema irá receber no cadastro:
-``shell
-  NOME
-  EMAIL
-  TELEFONE
-  CEP
-  CPF
+```shell
+NOME
+EMAIL
+TELEFONE
+CEP
+CPF
+```
