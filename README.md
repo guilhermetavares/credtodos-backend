@@ -30,21 +30,26 @@ CPF
 Como não é um cadastro qualquer, esses dados precisam passar por uma validação específica:
 
 - EMAIL
+*******
   - Se não existe na base
   - Pode utilizar via regex, lib ou até api https://verifalia.com/email-verification-api
 
 - TELEFONE
+**********
   - Se é um telefone válido
   - Existem libs de validação de telefone, por exemplo, https://pypi.org/project/phonenumbers/
 
 - CEP
+*****
   - Verificar se o cep existe
   - Complementar os dados, utilize algum serviço externo, por exemplo, https://viacep.com.br/ws/11030904/json/
 
 - NUMERO e COMPLEMENTO
+**********************
   - não são obrigatórios, mais o número deve ser válido
 
 - CPF
+*****
   - verificar se o valor é válido
 
 A api deve conter basicamente as urls (sugestão):
