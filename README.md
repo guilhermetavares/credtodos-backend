@@ -2,7 +2,7 @@ Desafio técnico Python
 
 Alguns requisitos
 -----------------
-
+  - Deixe o código em inglês
   - Use Git;
   - Procure fazer "micro commits" que são muitos commits com menos código isso nos ajuda a compreender a sua lógica;
   - Nos pergunte sobre qualquer dúvida que venha a surgir durante o desenvolvimento;
@@ -12,12 +12,29 @@ Alguns requisitos
 Problema
 --------
 
-A CREDTODOS LTDA está lançando um sistema inovador de cadastros e precisa garantir toda a qualidade e padronização dos dados.
+A CREDTODOS LTDA está lançando um sistema inovador de cadastros de clientes e precisa garantir toda a qualidade e padronização dos dados.
 E esse sistema será uma API simples de cadastro de clientes, e o sistema irá receber no cadastro:
 ```shell
 NOME
 EMAIL
 TELEFONE
 CEP
+NUMERO
+COMPLEMENTO
 CPF
+```
+
+Como não é um cadastro qualquer, esses dados precisam passar por uma validação específica:
+
+- EMAIL: Se é uma email válido e não existe na base
+- TELEFONE: Se é um telefone válido
+- CEP: Verificar se o cep existe, caso existir, salvar os dados complementares
+- NUMERO e COMPLEMENTO: não são obrigatórios
+- CPF: verificar se o valor do cpf é válido
+
+A api deve conter basicamente as urls (sugestão):
+```shell
+  GET  /api/v1/customers - listar os clientes
+  GET  /api/v1/customers/<key> - detalhe do clientes
+  POST /api/v1/customers - cadastrar um novo cliente
 ```
