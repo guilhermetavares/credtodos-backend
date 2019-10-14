@@ -38,7 +38,7 @@ Como não é um cadastro qualquer, esses dados precisam passar por uma validaç�
   - Existem libs de validação de telefone, por exemplo, https://pypi.org/project/phonenumbers/
 
 - CEP
-  - Verificar se o cep existe
+  - Verificar se o cep realmente existe
   - Complementar os dados, utilize algum serviço externo, por exemplo, https://viacep.com.br/ws/11030904/json/
 
 - NUMERO e COMPLEMENTO
@@ -50,12 +50,12 @@ Como não é um cadastro qualquer, esses dados precisam passar por uma validaç�
 A api deve conter basicamente as urls (sugestão):
 ```shell
   GET  /api/v1/customers - listar os clientes
-  GET  /api/v1/customers/*<key>* - detalhe do clientes
+  GET  /api/v1/customers/`<key>` - detalhe do clientes
   POST /api/v1/customers - cadastrar um novo cliente
 ```
 O acesso à api deve ser aberto ao mundo, porém deve possuir autenticação e autorização.
 
-Você está livre para definir a melhor arquitetura e tecnologias para solucionar este desafio, todos os itens descritos nos campos são sugestões, mas não se esqueça de contar sua motivação no arquivo README que deve acompanhar sua solução, junto com os detalhes de como executar seu programa. Documentação e testes serão avaliados também =).
+Você está livre para definir a melhor arquitetura e tecnologias para solucionar este desafio, todos os itens descritos nos campos são `sugestões`, mas não se esqueça de contar sua motivação no arquivo README que deve acompanhar sua solução, junto com os detalhes de como executar seu programa. Documentação e testes serão avaliados também =).
 
 Nós solicitamos que você trabalhe no desenvolvimento desse sistema sozinho e não divulgue a solução desse problema pela internet.
 
