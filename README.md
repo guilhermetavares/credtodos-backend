@@ -51,7 +51,7 @@ Como não é um cadastro qualquer, esses dados precisam passar por uma validaç�
 A api deve conter basicamente as urls (sugestão):
 ```shell
   GET  /api/v1/customers - listar os clientes
-  GET  /api/v1/customers/`<key>` - detalhe do clientes
+  GET  /api/v1/customers/`<key>` - detalhe do cliente
   POST /api/v1/customers - cadastrar um novo cliente
 ```
 
